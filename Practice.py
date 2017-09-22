@@ -1,7 +1,8 @@
 import codecs
-
+import os
 import requests
 import pymongo
+from multiprocessing import Process
 from bs4 import BeautifulSoup
 
 DOWNLOAD_URL = 'http://movie.douban.com/top250/'
